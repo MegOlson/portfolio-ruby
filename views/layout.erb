@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Megan Olson</title>
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+     <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand">Home</a>
+          <a href="/about" class="navbar-brand">About</a>
+          <a href="/portfolio" class="navbar-brand">Portfolio</a>
+          <a href="/contact" class="navbar-brand">Contact</a>
+          <a href="/" class="navbar-right"><img src="../img/gh.png" alt=""></a>
+        </div>
+        <!-- <ul class="nav navbar-nav navbar-right">
+          <li><img src="../img/gh.png" alt=""></li>
+          <li><img src="../img/in.png" alt=""></li>
+        </ul> -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
