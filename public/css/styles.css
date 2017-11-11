@@ -4,6 +4,10 @@
   margin-top: 20px;
 }
 
+body {
+  margin-bottom: 50px;
+}
+
 .navbar-brand {
   position: absolute;
   width: 100%;
@@ -13,6 +17,14 @@
 }
 .navbar-toggle {
     z-index:3;
+}
+
+#paragraph {
+  font-size: 20px;
+}
+
+#home-page {
+  background-color: #dab5b9;
 }
 
 .me {
@@ -25,8 +37,8 @@
 }
 
 .bio {
-  margin-right: 30%;
-  margin-left: 30%;
+  margin-right: 28%;
+  margin-left: 28%;
 }
 
 .col-md-2 {
