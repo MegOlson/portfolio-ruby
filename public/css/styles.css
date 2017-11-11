@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-.navbar {
+.navbar-left {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  position: absolute;
   width: 100%;
-  height: 75px;
-  border: none;
-  color: black;
-  background-color: #eee;
+  left: 0;
+  text-align: center;
+  margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
 }
 
 .col-md-2 {
@@ -26,8 +33,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-img {
+.image {
   margin-top: 140px;
+}
+
+.head {
+  text-align: center;
 }
 
 h1 {
@@ -54,4 +65,9 @@ h3 {
 
 .first {
   float: right;
+}
+
+.project {
+  width: 350px;
+  height: 200px;
 }

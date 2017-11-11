@@ -7,22 +7,21 @@
   </head>
   <body>
 
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a href="/" class="navbar-brand">Home</a>
-          <a href="/about" class="navbar-brand">About</a>
-          <a href="/portfolio" class="navbar-brand">Portfolio</a>
-          <a href="/contact" class="navbar-brand">Contact</a>
-          <a href="/" class="navbar-right"><img src="../img/gh.png" alt=""></a>
-        </div>
-        <!-- <ul class="nav navbar-nav navbar-right">
-          <li><img src="../img/gh.png" alt=""></li>
-          <li><img src="../img/in.png" alt=""></li>
-        </ul> -->
-
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="/" class="navbar-brand">Home</a></li>
+          <li><a href="/about" class="navbar-brand">About</a></li>
+          <li><a href="/portfolio" class="navbar-brand">Portfolio</a></li>
+          <li><a href="/contact" class="navbar-brand">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/MegOlson" class="navbar-right"><img src="../img/gh.png" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/megan-olson-0a63a0133/"><img src="../img/in.png" alt=""></a></li>
+        </ul>
       </div>
     </nav>
+
 
     <div class="container">
       <%= yield %>
