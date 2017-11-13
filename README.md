@@ -10,6 +10,10 @@ By: Megan Olson
 
 An online portfolio showcasing my work as a web developer.
 
+## Live
+
+https://meganolson.herokuapp.com/
+
 ## Known Bugs 🐛🐛🐛
 
 No known bugs
