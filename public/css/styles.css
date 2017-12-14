@@ -79,7 +79,7 @@ a {
 
 hr {
   display: block;
-  height: 1px;
+  height: .5px;
   border: 0;
   border-top: 1px solid black;
   margin: 1em 0;
@@ -145,7 +145,14 @@ nav {
 .nav {
   margin-right: 10px;
   margin-left: 10px;
+}
 
+.for-spacing {
+  margin-top: 100px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .heading {
