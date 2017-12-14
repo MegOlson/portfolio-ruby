@@ -14,6 +14,10 @@ get '/portfolio' do
   erb(:portfolio)
 end
 
+get "/resume" do
+  erb(:resume)
+end
+
 get '/contact' do
   erb(:contact)
 end
