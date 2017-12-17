@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .navbar-left {
   margin-top: 20px;
@@ -9,13 +10,19 @@ body {
   font-family: 'Lora', serif;
 }
 
+.fun-font {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: #9eaba9;
+}
+
 .jumbotron {
   background-color: #65777536;
 }
 
 #home-page {
   background-color: #c0ccca;
-  border-bottom: 1px solid #e6e884;
+  border-bottom: 5px solid #dada75;
 }
 
 #about, #portfolio {
@@ -47,6 +54,8 @@ body {
 
 #name {
   text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
 }
 
 .me {
@@ -82,7 +91,7 @@ hr {
   display: block;
   height: .5px;
   border: 0;
-  border-top: 1px solid black;
+  border-top: 1px solid #dada75;
   margin: 1em 0;
   padding: 0;
   width: 40%;
@@ -150,6 +159,8 @@ nav {
 
 .for-spacing {
   margin-top: 100px;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
 
 .underline {
@@ -162,4 +173,9 @@ nav {
 
 .projects-header {
   text-align: left;
+}
+
+#work-together {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
