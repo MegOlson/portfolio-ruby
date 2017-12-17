@@ -15,6 +15,7 @@ body {
 
 #home-page {
   background-color: #c0ccca;
+  border-bottom: 1px solid #e6e884;
 }
 
 #about, #portfolio {
