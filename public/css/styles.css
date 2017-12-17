@@ -29,7 +29,7 @@ body {
   margin:0 auto;
 }
 .navbar-toggle {
-    z-index:3;
+  z-index:3;
 }
 
 #paragraph {
@@ -155,6 +155,6 @@ nav {
   text-decoration: underline;
 }
 
-.heading {
-  margin-top: 100px;
+.yield {
+  margin-top: 200px;
 }

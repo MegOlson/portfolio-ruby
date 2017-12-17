@@ -8,13 +8,19 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top" id="home-page" role="navigation">
-      <div class="navbar-collapse collapse">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="heading">
+        <h1 id="name">Megan Olson</h1>
+      </div>
+      <div class="blurb">
+        <h3>PNW Native | Web Developer</h3>
+      </div>
+      <br>
+      <div class="navbar-collapse collapse" id="home-page">
         <ul class="nav navbar-nav navbar-left">
           <li><a href="/" class="navbar-brand">Home</a></li>
-          <li><a href="#about" class="navbar-brand">About</a></li>
-          <li><a href="#portfolio" class="navbar-brand">Portfolio</a></li>
+          <!-- <li><a href="#about" class="navbar-brand">About</a></li> -->
+          <li><a href="#about" class="navbar-brand">Portfolio</a></li>
           <!-- <li><a href="#resume" class="navbar-brand">Resume</a></li> -->
           <li><a href="#contact" class="navbar-brand">Contact</a></li>
         </ul>
@@ -24,6 +30,8 @@
         </ul>
       </div>
     </nav>
-    <%= yield %>
+    <div class="yield">
+      <%= yield %>
+    </div>
   </body>
 </html>
